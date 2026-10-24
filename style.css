@@ -1,0 +1,57 @@
+body {
+    background-color: #f4f4ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333366;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.intro {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    width: 220px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #333;
+    border: 3px solid #333366;
+}
+
+.card h2 {
+    margin-top: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.joke {
+    background-color: #ffd966;
+}
+
+.puzzle {
+    background-color: #9fc5e8;
+}
+
+.fact {
+    background-color: #93c47d;
+}
+
+.card:hover {
+    background-color: white;
+}
